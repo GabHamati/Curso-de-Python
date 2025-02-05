@@ -12,24 +12,24 @@
 salario = float(input("Insira o salário atual: R$ "))
 
 if salario <= 280:
-    aumento = 0.20
+    aumento = "20%"
     salario_aumento = salario * 1.2
 
 elif 280 < salario <= 700:
-    aumento = 0.15
+    aumento = "15%"
     salario_aumento = salario * 1.15
 
 elif 700 < salario <= 1500:
-    aumento = 0.10
+    aumento = "10%"
     salario_aumento = salario * 1.1
 
 else:
-    aumento = 0.05
+    aumento = "5%"
     salario_aumento = salario * 1.05
 
 valor_aumento = salario_aumento - salario
 
 print(f'O salário antes do reajuste era de R$ {salario:.2f}')
-print(f'O aumento aplicado foi de {aumento*100}%')
+print(f'O aumento aplicado foi de {aumento}')
 print(f'O valor do aumento foi de R$ {valor_aumento:.2f}')
 print(f'O salário após o aumento é de R$ {salario_aumento:.2f}')
