@@ -18,8 +18,7 @@ nulo = 0
 branco = 0
 
 while True:
-    voto = int(input(
-        "Insira um número de 1 a 4 para votar em um dos candidatos de acordo com seu número, 5 para nulo ou 6 para votar em branco. Aperte 0 para encerrar: "))
+    voto = int(input("Insira um número de 1 a 4 para votar em um dos candidatos de acordo com seu número, 5 para nulo ou 6 para votar em branco. Aperte 0 para encerrar: "))
     if voto == 0:
         break
 
