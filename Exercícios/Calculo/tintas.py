@@ -7,7 +7,7 @@
 # misturar latas e galões, de forma que o desperdício de tinta seja menor.
 # Sempre arredonde os valores para cima, isto é, considere latas cheias.
 
-
+import math
 
 area = float(input("Informe o tamanho em metros quadrados da área a ser pintada: "))
 litros = area / 6
