@@ -8,6 +8,3 @@ for i in range(10):
         consoantes.append(caracter)
 
 print(f"Foram informadas {len(consoantes)} consoantes. As consoantes informadas foram {consoantes}")
-
-
-aaaaaaaaaaaaaaa
